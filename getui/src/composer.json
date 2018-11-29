@@ -1,0 +1,27 @@
+{
+    "name": "getuisdk/getui",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "郝涛涛",
+            "email": "540864561@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Getuisdk\\Getui\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Getuisdk\\Getui\\GetuisdkServiceProvider"
+            ],
+            "aliases": {
+                "Getuisdk": "Getuisdk\\Getui\\Getuisdk"
+            }
+        }
+    }
+}
